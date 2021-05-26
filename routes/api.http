@@ -9,7 +9,7 @@ Content-Type: application/json
     "review": "super buena"
 }
 ### Edit Movie by ID
-PUT http://localhost:5000/api/movies/60ae1cb22c079f67b84e7862/edit
+PATCH http://localhost:5000/api/movies/60ae19a948590e437ca63ba5/edit
 Content-Type: application/json
 # cookie: usertoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGE4ZDM4MjU5MDQ2OTNlMWM4NDQ3YjQiLCJpYXQiOjE2MjE3MTQ0NjR9.--7ou6n1ihBrDiQUQNh_BB677IkIyDVN0wAYZ-PDwK0; 
 
